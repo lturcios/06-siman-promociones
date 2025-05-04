@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Promociones Exclusivas de Siman El Salvador</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/siman-logo.png" alt="Siman El Salvador" width="150">
+            </a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="promociones.html">Promociones</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="descubre-promociones">
+            <div class="container">
+                <h1>Promociones Exclusivas</h1>
+                <p>Descubre las mejores ofertas solo para ti</p>
+                <a href="promociones.html" class="btn">Ver promociones</a>
+            </div>
+        </section>
+
+        <section class="promociones">
+            <div class="container">
+                <h2>Ofertas Destacadas</h2>
+                <div class="promo-grid">
+                    <article class="promo-card">
+                        <img src="img/promocion-electronica.jpg" alt="Promoción en Area Electrónica">
+                        <div class="promo-content">
+                            <h3>Electrónica</h3>
+                            <p>Hasta un 40% de descuento en productos seleccionados</p>
+                            <span class="promo-badge">-40%</span>
+                        </div>
+                    </article>
+                    <article class="promo-card">
+                        <img src="img/promocion-hogar.jpg" alt="Promoción en Departamento Hogar">
+                        <div class="promo-content">
+                            <h3>Hogar</h3>
+                            <p>2x1 en todas las cocina Mabe</p>
+                            <span class="promo-badge">2x1</span>
+                        </div>
+                    </article>
+                    <article class="promo-card">
+                        <img src="img/promocion-moda.jpg" alt="Promoción en Moda Mamá">
+                        <div class="promo-content">
+                            <h3>Moda</h3>
+                            <p>30% de descuento en marcas seleccionadas con viñeta amarilla</p>
+                            <span class="promo-badge">-30%</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="boletin-noticias">
+            <div class="container">
+                <h2>Recibe todas nuestrs promociones</h2>
+                <p>Suscríbete y sé el primero en conocer nuestras ofertas exclusivas, eventos y más.</p>
+                <form class="suscribete">
+                    <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                    <button type="submit" class="btn">Suscribirme</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="img/siman-logo-blanco.png" alt="Siman El Salvador">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="promociones.html">Promociones</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacto">
+                <h3>Contacto</h3>
+                <p>contacto@siman.com.sv</p>
+                <p>Tel: +503 2298-3777</p>
+            </div>
+            <div class="footer-redes-sociales">
+                <h3>Síguenos</h3>
+                <div class="iconos-redes">
+                    <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Siman El Salvador. Todos los derechos reservados</p>
+        </div>
+    </footer>
+
 </body>
 </html>
