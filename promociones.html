@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es-SV">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora todas las promociones y ofertas actuales de Siman El Salvador por categoría.">
+    <title>Todas las Promociones | Siman El Salvador</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/siman-logo.png" alt="Logo de Siman El Salvador" width="150">
+            </a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="promociones.html">Promociones</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header"> <div class="container">
+                <h1>Todas nuestras promociones</h1>
+                <p>Descubre las mejores ofertas en todas nuestras categorías</p>
+            </div>
+        </section>
+
+        <section class="all-promotions"> <div class="container">
+                <div class="promo-categories"> <button class="category-btn active" data-category="all">Todas</button>
+                    <button class="category-btn" data-category="electronica">Electrónica</button>
+                    <button class="category-btn" data-category="hogar">Hogar</button>
+                    <button class="category-btn" data-category="moda">Moda</button>
+                    <button class="category-btn" data-category="belleza">Belleza</button>
+                    </div>
+
+                <div class="promo-list"> <article class="promo-item" data-category="electronica" id="electronica"> 
+                    <img src="img/promo-tv.jpg" alt="Imagen de promoción en televisores">
+                        <div class="promo-info">
+                            <h3>30% de descuento en televisores Samsung 4K</h3>
+                            <p class="promo-desc">Disfruta de una calidad de imagen increíble a un precio especial.</p>
+                            <p class="promo-date">Válido hasta: 30/05/2025</p> <span class="promo-percent">-30%</span>
+                            <a href="#" class="btn-small">Ver detalles</a> </div>
+                    </article>
+
+                    <article class="promo-item" data-category="hogar" id="hogar"> <img src="img/promo-muebles.jpg" alt="Imagen de promoción en muebles">
+                        <div class="promo-info">
+                            <h3>Financiamiento a 12 meses sin intereses en muebles de sala</h3>
+                            <p class="promo-desc">Amuebla tu sala sin preocupaciones con esta opción de financiamiento.</p>
+                            <p class="promo-date">Válido hasta: 15/05/2025</p> <span class="promo-tag">12 MSI</span>
+                             <a href="#" class="btn-small">Ver detalles</a> </div>
+                    </article>
+
+                    <article class="promo-item" data-category="moda" id="moda"> <img src="img/promo-zapatos.jpg" alt="Imagen de promoción en zapatos">
+                        <div class="promo-info">
+                            <h3>2x1 en calzado para dama marca Flexi</h3>
+                            <p class="promo-desc">Lleva dos pares y paga solo uno en modelos seleccionados de Flexi.</p>
+                            <p class="promo-date">Válido hasta: 20/05/2025</p> <span class="promo-tag">2x1</span>
+                             <a href="#" class="btn-small">Ver detalles</a> </div>
+                    </article>
+
+                     <article class="promo-item" data-category="belleza" id="belleza"> <img src="img/promo-perfumes.jpg" alt="Imagen de promoción en perfumes">
+                        <div class="promo-info">
+                            <h3>25% de descuento en perfumes importados</h3>
+                            <p class="promo-desc">Encuentra tu fragancia favorita con un descuento especial.</p>
+                            <p class="promo-date">Válido hasta: 10/05/2025</p> <span class="promo-percent">-25%</span>
+                             <a href="#" class="btn-small">Ver detalles</a> </div>
+                    </article>
+
+                    </div>
+            </div>
+        </section>
+    </main>
+
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="img/siman-logo-white.png" alt="Logo de Siman El Salvador en blanco" width="120">
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="promociones.html">Promociones</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                 <p>Email: <a href="mailto:contacto@siman.com.sv">contacto@siman.com.sv</a></p>
+                <p>Teléfono: <a href="tel:+50322983777">+503 2298-3777</a></p>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Síguenos en Facebook"><img src="img/facebook-icon.png" alt="Icono de Facebook"></a>
+                    <a href="#" aria-label="Síguenos en Instagram"><img src="img/instagram-icon.png" alt="Icono de Instagram"></a>
+                    <a href="#" aria-label="Síguenos en Twitter"><img src="img/twitter-icon.png" alt="Icono de Twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Siman El Salvador. Todos los derechos reservados.</p> </div>
+    </footer>
+
+    <script src="js/script.js"></script> </body>
+</html>
